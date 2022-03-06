@@ -52,9 +52,10 @@
     "autoload": {
         "psr-4": {
             "App\\": "app/",
+            "Illuminate\\Contracts\\": "packages/laravel/contracts/",
             "Illuminate\\Filesystem\\": "packages/laravel/filesystem/",
             "Illuminate\\View\\": "packages/laravel/view/",
-            "Illuminate\\Support\\": ["overrides/laravel/conditionable/", "overrides/laravel/support/"]
+            "Illuminate\\Support\\": ["packages/laravel/support/", "overrides/laravel/conditionable/"]
         },
         "classmap": [
             "database/seeds",
@@ -62,6 +63,7 @@
         ],
         "exclude-from-classmap": [
             "vendor\\laravel\\framework\\src\\Illuminate\\Filesystem",
+            "vendor\\laravel\\framework\\src\\Illuminate\\Support",
             "vendor\\laravel\\framework\\src\\Illuminate\\View"
         ]
     },
