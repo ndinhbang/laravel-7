@@ -52,7 +52,7 @@
     "autoload": {
         "psr-4": {
             "App\\": "app/",
-            "Illuminate\\Contracts\\": "packages/laravel/contracts/",
+            "Illuminate\\Contracts\\": "overrides/laravel/contracts/",
             "Illuminate\\Filesystem\\": "packages/laravel/filesystem/",
             "Illuminate\\View\\": "packages/laravel/view/",
             "Illuminate\\Support\\": ["packages/laravel/support/", "overrides/laravel/conditionable/"]
